@@ -23,7 +23,7 @@ Once you're done, click on "Generate" which will give you a ZIP archive of a web
 ## Out-of-the-Box Observability
 
 Starting this project will automatically send a number of auto-configured metrics to Wavefront.
-This happens has you haven't configured an api token for the service yet so one will be auto-negotiated for you.
+This happens as you haven't configured an api token for the service yet so one will be auto-negotiated for you.
 
 Before we start the service, let's identify our project so that we can isolate the metrics for it.
 Open `application.properties` and add the following:
